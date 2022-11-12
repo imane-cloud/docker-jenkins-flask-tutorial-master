@@ -7,7 +7,7 @@ node {
 
         /* Push the container to the custom Registry */
         registry = "dockerimanehiba/ad825d70b9ed"
-        registryCredential = 'dockerhub'
+        registryCredential = 'dockerHub'
         dockerImage = 'ad825d70b9ed'
         docker.withRegistry( '', registryCredential ) {
         customImage.push()
