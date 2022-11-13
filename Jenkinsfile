@@ -6,11 +6,11 @@ node {
         def customImage = docker.build("ad825d70b9ed")
 
         /* Push the container to the custom Registry */
-        /*registry = "dockerimanehiba/ad825d70b9ed"
+        registry = "dockerimanehiba/ad825d70b9ed"
         registryCredential = 'dockerHub'
         dockerImage = 'ad825d70b9ed'
         docker.withRegistry( '', registryCredential ) {
-        customImage.push()*/
+        customImage.push()
       }
         
     }
