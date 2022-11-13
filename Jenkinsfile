@@ -10,8 +10,8 @@ node {
         registryCredential = 'dockerHub'
         dockerImage = 'ad825d70b9ed'
         docker.withRegistry( '', registryCredential ) {
-        customImage.push()*/
-      }
+        customImage.push()
+      }*/
         
     }
 }
